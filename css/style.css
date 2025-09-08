@@ -546,7 +546,9 @@ input[type=checkbox]:checked + label {
 .bar.back::before{
   background-color: #a6cfe3;
 }
-
+.bar.c+::before{
+  width: calc(15% - 10px);
+}
 .bar.learning::before{
   width: calc(15% - 10px);
 }
